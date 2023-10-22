@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kaizen-art-app
+  labels:
+    app: kaizen-art-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: kaizen-art-app
+  template:
+    metadata:
+      labels:
+        app: kaizen-art-app
+    spec:
+      containers:
+      - name: kaizen-art-app
+        image: anandhi23/python-cicd:myimagetag
+        ports:
+        - containerPort: 8000
