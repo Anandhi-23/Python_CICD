@@ -40,6 +40,7 @@ Install minikube, kubectl and ArgoCD operator by follow the steps provided in th
 - [Minikube](https://minikube.sigs.k8s.io/docs/start/)
 - [Kubectl](https://kubernetes.io/docs/tasks/tools/)
 - [ArgoCD](https://operatorhub.io/operator/argocd-operator)
+- [ArgoCD CLI](https://argo-cd.readthedocs.io/en/stable/cli_installation/)
 
 ## Jenkins Setup
 Allow port 8080 in the inbound traffic rules to access Jenkins.
