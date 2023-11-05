@@ -9,12 +9,3 @@ docker rm -f $containerID
 
 
 
-
-
-
-
-
-
-
-
-
