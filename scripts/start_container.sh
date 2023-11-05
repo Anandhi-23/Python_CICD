@@ -8,3 +8,7 @@ docker pull anandhi23/python-django-app:latest
 docker run -d -p 8000:8000 anandhi23/python-django-app:latest
 
 
+
+
+
+
