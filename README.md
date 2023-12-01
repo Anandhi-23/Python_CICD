@@ -65,3 +65,5 @@ Go to ```Dashboard -> Manage Jenkins -> Manage Credentials -> System -> Global C
 
 Once all the configurations are done, restart the Jenkins using ```http://<PUBLIC IP OF EC2 INSTANCE>:8080/restart```
 
+
+
